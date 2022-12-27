@@ -1,0 +1,87 @@
+\hypertarget{namespace_i_o}{}\doxysection{IO Namespace Reference}
+\label{namespace_i_o}\index{IO@{IO}}
+
+
+\mbox{\hyperlink{namespace_i_o}{IO}} namespace.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_i_o_1_1_config_reader}{Config\+Reader}}
+\begin{DoxyCompactList}\small\item\em sv\+Zero\+DSolver configuration reader. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{namespace_i_o_a1ef2a3fccc174166142bb843eab206f4}{to\+\_\+vessel\+\_\+csv}} (std\+::vector$<$ T $>$ \&times, std\+::vector$<$ \mbox{\hyperlink{class_a_l_g_e_b_r_a_1_1_state}{ALGEBRA\+::\+State}}$<$ T $>$ $>$ \&states, \mbox{\hyperlink{class_m_o_d_e_l_1_1_model}{MODEL\+::\+Model}}$<$ T $>$ \&model, bool mean=false, bool derivative=false)
+\begin{DoxyCompactList}\small\item\em Write results vessel based. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{namespace_i_o_a02005a08dbf60e9a61dbb595454010f5}{to\+\_\+variable\+\_\+csv}} (std\+::vector$<$ T $>$ \&times, std\+::vector$<$ \mbox{\hyperlink{class_a_l_g_e_b_r_a_1_1_state}{ALGEBRA\+::\+State}}$<$ T $>$ $>$ \&states, \mbox{\hyperlink{class_m_o_d_e_l_1_1_model}{MODEL\+::\+Model}}$<$ T $>$ \&model, bool mean=false, bool derivative=false)
+\begin{DoxyCompactList}\small\item\em Write results variable based. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{namespace_i_o}{IO}} namespace. 
+
+The \mbox{\hyperlink{namespace_i_o}{IO}} namespace contains all tools for reading configuration and writing solution files. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_i_o_a02005a08dbf60e9a61dbb595454010f5}\label{namespace_i_o_a02005a08dbf60e9a61dbb595454010f5}} 
+\index{IO@{IO}!to\_variable\_csv@{to\_variable\_csv}}
+\index{to\_variable\_csv@{to\_variable\_csv}!IO@{IO}}
+\doxysubsubsection{\texorpdfstring{to\_variable\_csv()}{to\_variable\_csv()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::string IO\+::to\+\_\+variable\+\_\+csv (\begin{DoxyParamCaption}\item[{std\+::vector$<$ T $>$ \&}]{times,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_a_l_g_e_b_r_a_1_1_state}{ALGEBRA\+::\+State}}$<$ T $>$ $>$ \&}]{states,  }\item[{\mbox{\hyperlink{class_m_o_d_e_l_1_1_model}{MODEL\+::\+Model}}$<$ T $>$ \&}]{model,  }\item[{bool}]{mean = {\ttfamily false},  }\item[{bool}]{derivative = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Write results variable based. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Scalar type (e.\+g. {\ttfamily float}, {\ttfamily double}) \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em times} & Sequence of time steps corresponding to the solutions \\
+\hline
+{\em states} & Sequence of states corresponding to the time steps \\
+\hline
+{\em model} & The underlying model \\
+\hline
+{\em mean} & Toggle whether only the mean over all time steps should be written \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+CSV encoded output string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespace_i_o_a1ef2a3fccc174166142bb843eab206f4}\label{namespace_i_o_a1ef2a3fccc174166142bb843eab206f4}} 
+\index{IO@{IO}!to\_vessel\_csv@{to\_vessel\_csv}}
+\index{to\_vessel\_csv@{to\_vessel\_csv}!IO@{IO}}
+\doxysubsubsection{\texorpdfstring{to\_vessel\_csv()}{to\_vessel\_csv()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::string IO\+::to\+\_\+vessel\+\_\+csv (\begin{DoxyParamCaption}\item[{std\+::vector$<$ T $>$ \&}]{times,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_a_l_g_e_b_r_a_1_1_state}{ALGEBRA\+::\+State}}$<$ T $>$ $>$ \&}]{states,  }\item[{\mbox{\hyperlink{class_m_o_d_e_l_1_1_model}{MODEL\+::\+Model}}$<$ T $>$ \&}]{model,  }\item[{bool}]{mean = {\ttfamily false},  }\item[{bool}]{derivative = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Write results vessel based. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Scalar type (e.\+g. {\ttfamily float}, {\ttfamily double}) \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em times} & Sequence of time steps corresponding to the solutions \\
+\hline
+{\em states} & Sequence of states corresponding to the time steps \\
+\hline
+{\em model} & The underlying model \\
+\hline
+{\em mean} & Toggle whether only the mean over all time steps should be written \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+CSV encoded output string 
+\end{DoxyReturn}
