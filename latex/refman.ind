@@ -47,7 +47,7 @@
 
   \item {ALGEBRA}, \hyperpage{15}
   \item {algebra/integrator.hpp}, \hyperpage{145, 146}
-  \item {algebra/namespace.hpp}, \hyperpage{158, 159}
+  \item {algebra/namespace.hpp}, \hyperpage{181, 182}
   \item {algebra/sparsesystem.hpp}, \hyperpage{149, 150}
   \item {algebra/state.hpp}, \hyperpage{152, 153}
   \item {ALGEBRA::Integrator$<$ T $>$}, \hyperpage{72}
@@ -172,7 +172,7 @@
   \item {get\_activation\_and\_elastance\_functions}
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$}, \hyperpage{49}
   \item {get\_block\_node\_IDs}
-    \subitem {interface.cpp}, \hyperpage{165}
+    \subitem {interface.cpp}, \hyperpage{162}
   \item {get\_block\_params}
     \subitem {MODEL::Block$<$ T $>$}, \hyperpage{24}
     \subitem {MODEL::BloodVessel$<$ T $>$}, \hyperpage{33}
@@ -215,8 +215,8 @@
     \subitem {startswith}, \hyperpage{16}
   \item {helpers/debug.hpp}, \hyperpage{154}, \hyperpage{156}
   \item {helpers/endswith.hpp}, \hyperpage{156}, \hyperpage{158}
-  \item {helpers/namespace.hpp}, \hyperpage{159, 160}
-  \item {helpers/startswith.hpp}, \hyperpage{162, 163}
+  \item {helpers/namespace.hpp}, \hyperpage{182, 183}
+  \item {helpers/startswith.hpp}, \hyperpage{158}, \hyperpage{160}
 
   \indexspace
 
@@ -227,33 +227,33 @@
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$::Parameters}, 
 		\hyperpage{99}
   \item {increment\_time}
-    \subitem {interface.cpp}, \hyperpage{166}
+    \subitem {interface.cpp}, \hyperpage{162}
   \item {initial\_state}
     \subitem {IO::ConfigReader$<$ T $>$}, \hyperpage{61}
   \item {initialize}
-    \subitem {interface.cpp}, \hyperpage{166}
+    \subitem {interface.cpp}, \hyperpage{162}
   \item {inlet\_nodes}
     \subitem {MODEL::Block$<$ T $>$}, \hyperpage{29}
   \item {Integrator}
     \subitem {ALGEBRA::Integrator$<$ T $>$}, \hyperpage{73}
   \item {interface.cpp}
-    \subitem {get\_block\_node\_IDs}, \hyperpage{165}
-    \subitem {increment\_time}, \hyperpage{166}
-    \subitem {initialize}, \hyperpage{166}
-    \subitem {read\_block\_params}, \hyperpage{166}
-    \subitem {return\_y}, \hyperpage{167}
-    \subitem {return\_ydot}, \hyperpage{167}
-    \subitem {run\_simulation}, \hyperpage{167}
-    \subitem {set\_external\_step\_size}, \hyperpage{168}
-    \subitem {update\_block\_params}, \hyperpage{168}
-    \subitem {update\_state}, \hyperpage{168}
-  \item {interface/interface.cpp}, \hyperpage{164}
+    \subitem {get\_block\_node\_IDs}, \hyperpage{162}
+    \subitem {increment\_time}, \hyperpage{162}
+    \subitem {initialize}, \hyperpage{162}
+    \subitem {read\_block\_params}, \hyperpage{163}
+    \subitem {return\_y}, \hyperpage{163}
+    \subitem {return\_ydot}, \hyperpage{164}
+    \subitem {run\_simulation}, \hyperpage{164}
+    \subitem {set\_external\_step\_size}, \hyperpage{164}
+    \subitem {update\_block\_params}, \hyperpage{165}
+    \subitem {update\_state}, \hyperpage{165}
+  \item {interface/interface.cpp}, \hyperpage{160}
   \item {IO}, \hyperpage{17}
     \subitem {to\_variable\_csv}, \hyperpage{17}
     \subitem {to\_vessel\_csv}, \hyperpage{18}
-  \item {io/configreader.hpp}, \hyperpage{169, 170}
-  \item {io/csvwriter.hpp}, \hyperpage{180}, \hyperpage{182}
-  \item {io/namespace.hpp}, \hyperpage{160, 161}
+  \item {io/configreader.hpp}, \hyperpage{165}, \hyperpage{167}
+  \item {io/csvwriter.hpp}, \hyperpage{177, 178}
+  \item {io/namespace.hpp}, \hyperpage{183, 184}
   \item {IO::ConfigReader$<$ T $>$}, \hyperpage{59}
     \subitem {$\sim$ConfigReader}, \hyperpage{61}
     \subitem {ConfigReader}, \hyperpage{61}
@@ -326,9 +326,9 @@
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{185}
+    \subitem {main.cpp}, \hyperpage{186}
   \item {main.cpp}, \hyperpage{185}
-    \subitem {main}, \hyperpage{185}
+    \subitem {main}, \hyperpage{186}
   \item {main.hpp}, \hyperpage{186}
     \subitem {run}, \hyperpage{187}
   \item {MODEL}, \hyperpage{18}
@@ -348,7 +348,7 @@
   \item {model/flowreferencebc.hpp}, \hyperpage{229}, \hyperpage{231}
   \item {model/junction.hpp}, \hyperpage{234, 235}
   \item {model/model.hpp}, \hyperpage{238, 239}
-  \item {model/namespace.hpp}, \hyperpage{161, 162}
+  \item {model/namespace.hpp}, \hyperpage{184, 185}
   \item {model/node.hpp}, \hyperpage{241}, \hyperpage{243}
   \item {model/openloopcoronarybc.hpp}, \hyperpage{244, 245}
   \item {model/pressurereferencebc.hpp}, \hyperpage{249}, 
@@ -695,7 +695,7 @@
     \subitem {MODEL::WindkesselBC$<$ T $>$::Parameters}, 
 		\hyperpage{112}
   \item {read\_block\_params}
-    \subitem {interface.cpp}, \hyperpage{166}
+    \subitem {interface.cpp}, \hyperpage{163}
   \item {register\_equation}
     \subitem {MODEL::DOFHandler}, \hyperpage{66}
   \item {register\_variable}
@@ -709,9 +709,9 @@
   \item {ResistiveJunction}
     \subitem {MODEL::ResistiveJunction$<$ T $>$}, \hyperpage{125}
   \item {return\_y}
-    \subitem {interface.cpp}, \hyperpage{167}
+    \subitem {interface.cpp}, \hyperpage{163}
   \item {return\_ydot}
-    \subitem {interface.cpp}, \hyperpage{167}
+    \subitem {interface.cpp}, \hyperpage{164}
   \item {Rla\_v}
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$::Parameters}, 
 		\hyperpage{101}
@@ -735,12 +735,12 @@
   \item {run}
     \subitem {main.hpp}, \hyperpage{187}
   \item {run\_simulation}
-    \subitem {interface.cpp}, \hyperpage{167}
+    \subitem {interface.cpp}, \hyperpage{164}
 
   \indexspace
 
   \item {set\_external\_step\_size}
-    \subitem {interface.cpp}, \hyperpage{168}
+    \subitem {interface.cpp}, \hyperpage{164}
   \item {set\_ICs}
     \subitem {MODEL::Block$<$ T $>$}, \hyperpage{25}
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$}, \hyperpage{52}
@@ -844,7 +844,7 @@
   \indexspace
 
   \item {update\_block\_params}
-    \subitem {interface.cpp}, \hyperpage{168}
+    \subitem {interface.cpp}, \hyperpage{165}
     \subitem {MODEL::Block$<$ T $>$}, \hyperpage{27}
     \subitem {MODEL::BloodVessel$<$ T $>$}, \hyperpage{34}
     \subitem {MODEL::ClosedLoopCoronaryBC$<$ T $>$}, \hyperpage{45}
@@ -885,7 +885,7 @@
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$}, \hyperpage{53}
     \subitem {MODEL::Model$<$ T $>$}, \hyperpage{81}
   \item {update\_state}
-    \subitem {interface.cpp}, \hyperpage{168}
+    \subitem {interface.cpp}, \hyperpage{165}
   \item {update\_time}
     \subitem {MODEL::Block$<$ T $>$}, \hyperpage{28}
     \subitem {MODEL::ClosedLoopHeartPulmonary$<$ T $>$}, \hyperpage{53}
