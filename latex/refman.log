@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Alpine Linux) (preloaded format=pdflatex 2023.9.1)  1 SEP 2023 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Alpine Linux) (preloaded format=pdflatex 2023.9.14)  14 SEP 2023 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1310,60 +1310,61 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 5.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 11.
+(Font)              scaled to size 12.9599pt on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 12.
-LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 33.
+(Font)              scaled to size 10.79993pt on input line 20.
+ [1
 
-Underfull \hbox (badness 10000) detected at line 33
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 41.
+
+Underfull \hbox (badness 10000) detected at line 41
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[1
-
-
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []\T1/phv/m/n/10 Output so-lu-tion based on vari-ables (i.[]
  []
 
 [3]
-Underfull \hbox (badness 1852) in paragraph at lines 196--196
+Underfull \hbox (badness 1852) in paragraph at lines 207--207
 \T1/pcr/m/n/10 R[]_[]poiseuille[]\T1/phv/m/n/10 : Poiseuille
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 \T1/pcr/m/n/10 stenosis[]_[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 \T1/pcr/m/n/10 coefficient[]\T1/phv/m/n/10 : Steno-sis
  []
 
-
-Overfull \hbox (2.32822pt too wide) in paragraph at lines 231--231
+[4]
+Overfull \hbox (2.32822pt too wide) in paragraph at lines 242--242
 [][]| 
  []
 
 
-Underfull \hbox (badness 812) in paragraph at lines 265--265
+Underfull \hbox (badness 812) in paragraph at lines 276--276
 []\T1/phv/m/n/10 Prescribed (tran-sient) pres-
  []
 
 
-Overfull \hbox (11.68141pt too wide) in paragraph at lines 265--265
+Overfull \hbox (11.68141pt too wide) in paragraph at lines 276--276
 [][]| 
  []
 
-[4] [5]) [6]
+[5]) [6]
 Chapter 2.
 (./md_developer_guide.tex [7
 
@@ -1709,18 +1710,18 @@ Chapter 9.
 (./integrator_8hpp.tex) (./integrator_8hpp_source.tex [123
 
 ] [124] [125])
-(./sparsesystem_8hpp.tex [126]) (./sparsesystem_8hpp_source.tex [127] [128])
-(./state_8hpp.tex [129]) (./state_8hpp_source.tex [130]) (./debug_8hpp.tex
-[131]) (./debug_8hpp_source.tex) (./endswith_8hpp.tex [132])
-(./endswith_8hpp_source.tex [133]) (./algebra_2namespace_8hpp.tex)
-(./algebra_2namespace_8hpp_source.tex [134]) (./helpers_2namespace_8hpp.tex)
-(./helpers_2namespace_8hpp_source.tex) (./io_2namespace_8hpp.tex [135])
-(./io_2namespace_8hpp_source.tex) (./model_2namespace_8hpp.tex)
-(./model_2namespace_8hpp_source.tex [136]) (./optimize_2namespace_8hpp.tex)
-(./optimize_2namespace_8hpp_source.tex [137]) (./solve_2namespace_8hpp.tex)
-(./solve_2namespace_8hpp_source.tex [138]) (./startswith_8hpp.tex)
-(./startswith_8hpp_source.tex [139]) (./interface_8cpp.tex [140] [141] [142]
-[143] [144]) (./configreader_8hpp.tex
+(./algebra_2namespace_8hpp.tex [126]) (./algebra_2namespace_8hpp_source.tex)
+(./helpers_2namespace_8hpp.tex) (./helpers_2namespace_8hpp_source.tex [127])
+(./io_2namespace_8hpp.tex) (./io_2namespace_8hpp_source.tex [128])
+(./model_2namespace_8hpp.tex) (./model_2namespace_8hpp_source.tex [129])
+(./optimize_2namespace_8hpp.tex) (./optimize_2namespace_8hpp_source.tex
+[130]) (./solve_2namespace_8hpp.tex) (./solve_2namespace_8hpp_source.tex
+[131]) (./sparsesystem_8hpp.tex) (./sparsesystem_8hpp_source.tex [132] [133]
+[134]) (./state_8hpp.tex) (./state_8hpp_source.tex [135] [136])
+(./debug_8hpp.tex) (./debug_8hpp_source.tex [137]) (./endswith_8hpp.tex)
+(./endswith_8hpp_source.tex [138]) (./startswith_8hpp.tex [139])
+(./startswith_8hpp_source.tex) (./interface_8cpp.tex [140] [141] [142] [143]
+[144] [145]) (./configreader_8hpp.tex
 pdfTeX warning (ext4): destination with the same identifier (name{namespace_i_o
 _a9753ce4db67b134deb4af6d71ba4c17a}) has been already used, duplicate ignored
 <to be read again> 
@@ -1732,14 +1733,14 @@ _ad9e3e9e10f161ccd49ea9cbb9034b9ad}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.35 ...ce_i_o_ad9e3e9e10f161ccd49ea9cbb9034b9ad}}
-                                                   [145])
-(./configreader_8hpp_source.tex [146] [147] [148] [149] [150] [151] [152])
-(./csvwriter_8hpp.tex) (./csvwriter_8hpp_source.tex [153] [154] [155] [156])
-(./block_8hpp.tex) (./block_8hpp_source.tex [157] [158] [159])
-(./blocktype_8hpp.tex [160]) (./blocktype_8hpp_source.tex [161])
-(./bloodvessel_8hpp.tex) (./bloodvessel_8hpp_source.tex [162] [163] [164]
-[165]) (./bloodvesseljunction_8hpp.tex [166])
-(./bloodvesseljunction_8hpp_source.tex [167] [168] [169] [170])
+                                                   [146])
+(./configreader_8hpp_source.tex [147] [148] [149] [150] [151] [152] [153])
+(./csvwriter_8hpp.tex) (./csvwriter_8hpp_source.tex [154] [155] [156] [157])
+(./block_8hpp.tex) (./block_8hpp_source.tex [158] [159] [160])
+(./blocktype_8hpp.tex [161]) (./blocktype_8hpp_source.tex [162])
+(./bloodvessel_8hpp.tex) (./bloodvessel_8hpp_source.tex [163] [164] [165]
+[166]) (./bloodvesseljunction_8hpp.tex [167])
+(./bloodvesseljunction_8hpp_source.tex [168] [169] [170] [171])
 (./closedloopcoronarybc_8hpp.tex
 pdfTeX warning (ext4): destination with the same identifier (name{namespace_m_o
 _d_e_l_aff19ca6649cfd0b011a2c996cfe14e33}) has been already used, duplicate ign
@@ -1748,28 +1749,28 @@ ored
                    \relax 
 l.28 ..._d_e_l_aff19ca6649cfd0b011a2c996cfe14e33}}
                                                   )
-(./closedloopcoronarybc_8hpp_source.tex [171] [172] [173] [174])
+(./closedloopcoronarybc_8hpp_source.tex [172] [173] [174] [175])
 (./closedloopheartpulmonary_8hpp.tex)
-(./closedloopheartpulmonary_8hpp_source.tex [175] [176] [177] [178] [179]
-[180]) (./closedloop_r_c_rbc_8hpp.tex [181])
-(./closedloop_r_c_rbc_8hpp_source.tex [182] [183]) (./dofhandler_8hpp.tex
-[184]) (./dofhandler_8hpp_source.tex [185] [186]) (./flowreferencebc_8hpp.tex)
-(./flowreferencebc_8hpp_source.tex [187] [188] [189]) (./junction_8hpp.tex)
-(./junction_8hpp_source.tex [190] [191] [192]) (./model_8hpp.tex)
-(./model_8hpp_source.tex [193] [194] [195] [196] [197] [198] [199])
-(./node_8hpp.tex) (./node_8hpp_source.tex [200] [201])
+(./closedloopheartpulmonary_8hpp_source.tex [176] [177] [178] [179] [180]
+[181]) (./closedloop_r_c_rbc_8hpp.tex [182])
+(./closedloop_r_c_rbc_8hpp_source.tex [183] [184]) (./dofhandler_8hpp.tex
+[185]) (./dofhandler_8hpp_source.tex [186] [187]) (./flowreferencebc_8hpp.tex)
+(./flowreferencebc_8hpp_source.tex [188] [189] [190]) (./junction_8hpp.tex)
+(./junction_8hpp_source.tex [191] [192] [193]) (./model_8hpp.tex)
+(./model_8hpp_source.tex [194] [195] [196] [197] [198] [199] [200])
+(./node_8hpp.tex) (./node_8hpp_source.tex [201] [202])
 (./openloopcoronarybc_8hpp.tex
 
-Package natbib Warning: Citation `kim_coronary' on page 202 undefined on input 
+Package natbib Warning: Citation `kim_coronary' on page 203 undefined on input 
 line 19.
 
-) (./openloopcoronarybc_8hpp_source.tex [202] [203] [204])
-(./parameter_8hpp.tex [205]) (./parameter_8hpp_source.tex [206] [207] [208])
+) (./openloopcoronarybc_8hpp_source.tex [203] [204] [205])
+(./parameter_8hpp.tex [206]) (./parameter_8hpp_source.tex [207] [208] [209])
 (./pressurereferencebc_8hpp.tex) (./pressurereferencebc_8hpp_source.tex
-[209] [210]) (./resistancebc_8hpp.tex) (./resistancebc_8hpp_source.tex [211]
-[212] [213]) (./resistivejunction_8hpp.tex)
-(./resistivejunction_8hpp_source.tex [214] [215] [216])
-(./windkesselbc_8hpp.tex) (./windkesselbc_8hpp_source.tex [217] [218] [219])
+[210] [211]) (./resistancebc_8hpp.tex) (./resistancebc_8hpp_source.tex [212]
+[213] [214]) (./resistivejunction_8hpp.tex)
+(./resistivejunction_8hpp_source.tex [215] [216] [217])
+(./windkesselbc_8hpp.tex) (./windkesselbc_8hpp_source.tex [218] [219] [220])
 (./calibrate_8hpp.tex
 pdfTeX warning (ext4): destination with the same identifier (name{namespace_o_p
 _t_a0ef53bdc269a003303abd33095244459}) has been already used, duplicate ignored
@@ -1778,15 +1779,18 @@ _t_a0ef53bdc269a003303abd33095244459}) has been already used, duplicate ignored
                    \relax 
 l.26 ..._o_p_t_a0ef53bdc269a003303abd33095244459}}
                                                   )
-(./calibrate_8hpp_source.tex [220] [221] [222] [223])
+(./calibrate_8hpp_source.tex [221] [222] [223] [224])
 (./levenbergmarquardtoptimizer_8hpp.tex)
-(./levenbergmarquardtoptimizer_8hpp_source.tex [224] [225] [226] [227])
-(./solver_8hpp.tex) (./solver_8hpp_source.tex [228] [229] [230] [231]) [232]
+(./levenbergmarquardtoptimizer_8hpp_source.tex [225] [226] [227] [228])
+(./solver_8hpp.tex) (./solver_8hpp_source.tex [229] [230] [231] [232]) [233]
 (./refman.bbl
 No file refman.brf.
 \tf@brf=\write8
 \openout8 = `refman.brf'.
 
+[234
+
+]
 
 ! LaTeX Error: Unicode character α (U+03B1)
                not set up for use with LaTeX.
@@ -1808,10 +1812,10 @@ You may provide a definition with
 
  
 Here is how much of TeX's memory you used:
- 47461 strings out of 478238
- 1082309 string characters out of 5850422
- 1628476 words of memory out of 5000000
- 63345 multiletter control sequences out of 15000+600000
+ 47469 strings out of 478238
+ 1082427 string characters out of 5850421
+ 1629037 words of memory out of 5000000
+ 63348 multiletter control sequences out of 15000+600000
  546568 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,117p,1705b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
