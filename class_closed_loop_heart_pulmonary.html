@@ -271,7 +271,7 @@ Public Attributes</h2></td></tr>
 <p>Models the mechanics of the 4 heart chambers and pulmonary circulation</p>
 <p>References: <a class="el" href="citelist.html#CITEREF_sankaran2012patient">[9]</a> and <a class="el" href="citelist.html#CITEREF_menon2023predictors">[5]</a></p>
 <p>TODO: Equations and circuit diagram</p>
-<h3><a class="anchor" id="autotoc_md14"></a>
+<h3><a class="anchor" id="autotoc_md18"></a>
 Parameters</h3>
 <p><a class="el" href="class_parameter.html" title="Model Parameter.">Parameter</a> sequence for constructing this block</p>
 <ul>
@@ -301,7 +301,24 @@ Parameters</h3>
 <li><code>23</code> Right atrium elastance</li>
 <li><code>24</code> Left atrium elastance</li>
 <li><code>25</code> Right atrium resting volume</li>
-<li><code>26</code> Left atrium resting volume </li>
+<li><code>26</code> Left atrium resting volume</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md19"></a>
+Internal variables</h3>
+<p>Names of internal variables in this block's output:</p>
+<ul>
+<li><code>V_RA</code>: Right atrium volume</li>
+<li><code>Q_RA</code>: Right atrium outflow</li>
+<li><code>P_RV</code>: Right ventricle pressure</li>
+<li><code>V_RV</code>: Right ventricle volume</li>
+<li><code>Q_RV</code>: Right ventricle outflow</li>
+<li><code>P_pul</code>: Pulmonary pressure</li>
+<li><code>P_LA</code>: Left atrium pressure</li>
+<li><code>V_LA</code>: Left atrium volume</li>
+<li><code>Q_LA</code>: Left atrium outflow</li>
+<li><code>P_LV</code>: Left ventricle pressure</li>
+<li><code>V_LV</code>: Left ventricle volume</li>
+<li><code>Q_LV</code>: Left ventricle outflow </li>
 </ul>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a9b07dd66cda94886387707319b2d1834" name="a9b07dd66cda94886387707319b2d1834"></a>
