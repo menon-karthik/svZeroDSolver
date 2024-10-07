@@ -347,18 +347,18 @@ Values of the boundary condition can be specified as a function of time as follo
 ```
 See `svZeroDSolver/tests/cases/pulsatileFlow_R_RCR.json` for an example.
 
-[//]: # (Below is for future development)
-[//]: # (For the `FLOW` and `PRESSURE` boundary conditions, `bc_values` can also be specified as a mathematical expression as follow:)
-[//]: # (```python)
-[//]: # ({)
-[//]: # (    "bc_name": "INFLOW", # Name of the boundary condition)
-[//]: # (    "bc_type": "FLOW", # Type of the boundary condition)
-[//]: # (    "bc_values": {)
+[//]: # "Below is for future development"
+[//]: # "For the `FLOW` and `PRESSURE` boundary conditions, `bc_values` can also be specified as a mathematical expression as follow:"
+[//]: # "```python"
+[//]: # "{"
+[//]: # "    "bc_name": "INFLOW", # Name of the boundary condition"
+[//]: # "    "bc_type": "FLOW", # Type of the boundary condition"
+[//]: # "    "bc_values": {"
 [//]: # "        "fn": "2.0 * (4*atan(1.)) * cos(2.0 * (4*atan(1.)) * t)""
-[//]: # (    })
-[//]: # (},)
-[//]: # (```)
-[//]: # (For an example with a mathematical expression for the boundary condition, see `svZeroDSolver/tests/cases/timeDep_Flow.json`.)
+[//]: # "    }"
+[//]: # "},"
+[//]: # "```"
+[//]: # "For an example with a mathematical expression for the boundary condition, see `svZeroDSolver/tests/cases/timeDep_Flow.json`."
 
 ## Simulation Outputs
 
