@@ -354,7 +354,7 @@ See `svZeroDSolver/tests/cases/pulsatileFlow_R_RCR.json` for an example.
 [//]: # (    "bc_name": "INFLOW", # Name of the boundary condition)
 [//]: # (    "bc_type": "FLOW", # Type of the boundary condition)
 [//]: # (    "bc_values": {)
-[//]: # (        "fn": "2.0 * (4*atan(1.)) * cos(2.0 * (4*atan(1.)) * t)")
+[//]: # "        "fn": "2.0 * (4*atan(1.)) * cos(2.0 * (4*atan(1.)) * t)""
 [//]: # (    })
 [//]: # (},)
 [//]: # (```)
