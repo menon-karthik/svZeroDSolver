@@ -29,13 +29,15 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #cmake_minimum_required(VERSION 3.22)
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.7)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(svZeroDSolver)
 
 include(FetchContent)
+
+message(CMAKE_VERSION="${CMAKE_VERSION}")
 
 # Enable code coverage
 # -----------------------------------------------------------------------------
