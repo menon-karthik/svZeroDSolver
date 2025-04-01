@@ -29,7 +29,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #cmake_minimum_required(VERSION 3.22)
-cmake_minimum_required(VERSION 3.7)
+#cmake_minimum_required(VERSION 3.7)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
@@ -107,7 +107,8 @@ FetchContent_Declare(
 FetchContent_GetProperties(pybind11)
 
 if(NOT pybind11_POPULATED)
-    FetchContent_Populate(pybind11)
+    #FetchContent_Populate(pybind11)
+    FetchContent_MakeAvailable(pybind11)
     add_subdirectory(${pybind11_SOURCE_DIR} ${pybind11_BINARY_DIR})
 endif()
 
