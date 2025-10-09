@@ -238,6 +238,7 @@ void update_block_params(int problem_id, std::string block_name,
     for (int i = 0; i < num_time_pts; i++) {
       times_new.push_back(params[1 + i]);
       values_new.push_back(params[1 + num_time_pts + i]);
+      std::cout<<block_name<<" "<<params[1 + i]<<" "<<params[1 + num_time_pts + i]<<std::endl;
     }
     model->get_parameter(block->global_param_ids[0])
         ->update(times_new, values_new);
