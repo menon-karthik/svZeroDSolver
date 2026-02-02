@@ -165,7 +165,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">   *</span></div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">   * @param model The model to reserve space for in the system</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sparse_system.html#a175040c26141bbe53e98bfd0cf3e4898">reserve</a>(<a class="code hl_class" href="class_model.html">Model</a> *model);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sparse_system.html#a175040c26141bbe53e98bfd0cf3e4898">reserve</a>(<a class="code hl_class" href="class_model.html">Model</a>* model);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment"></span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">  /**</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">   * @brief Update the residual of the system</span></div>
@@ -173,8 +173,8 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">   * @param y Vector of current solution quantities</span></div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">   * @param ydot Derivate of y</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">   */</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sparse_system.html#a9922d0e459f45c7dda13f80797fb04b9">update_residual</a>(Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt; &amp;y,</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                       Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt; &amp;ydot);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sparse_system.html#a9922d0e459f45c7dda13f80797fb04b9">update_residual</a>(Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt;&amp; y,</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                       Eigen::Matrix&lt;double, Eigen::Dynamic, 1&gt;&amp; ydot);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="comment"></span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment">  /**</span></div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="comment">   * @brief Update the jacobian of the system</span></div>
@@ -198,7 +198,7 @@ $(function(){ initResizable(false); });
 </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#endif  </span><span class="comment">// SVZERODSOLVER_ALGREBRA_SPARSESYSTEM_HPP_</span></div>
-<div class="ttc" id="aclass_model_html"><div class="ttname"><a href="class_model.html">Model</a></div><div class="ttdoc">Model of 0D elements.</div><div class="ttdef"><b>Definition</b> Model.h:49</div></div>
+<div class="ttc" id="aclass_model_html"><div class="ttname"><a href="class_model.html">Model</a></div><div class="ttdoc">Model of 0D elements.</div><div class="ttdef"><b>Definition</b> Model.h:52</div></div>
 <div class="ttc" id="aclass_sparse_system_html_a11d6d844d7ce60c8b4f29c35fd12bd3c"><div class="ttname"><a href="class_sparse_system.html#a11d6d844d7ce60c8b4f29c35fd12bd3c">SparseSystem::dC_dy</a></div><div class="ttdeci">Eigen::SparseMatrix&lt; double &gt; dC_dy</div><div class="ttdoc">System matrix dC/dy.</div><div class="ttdef"><b>Definition</b> SparseSystem.h:53</div></div>
 <div class="ttc" id="aclass_sparse_system_html_a175040c26141bbe53e98bfd0cf3e4898"><div class="ttname"><a href="class_sparse_system.html#a175040c26141bbe53e98bfd0cf3e4898">SparseSystem::reserve</a></div><div class="ttdeci">void reserve(Model *model)</div><div class="ttdoc">Reserve memory in system matrices based on number of triplets.</div><div class="ttdef"><b>Definition</b> SparseSystem.cpp:30</div></div>
 <div class="ttc" id="aclass_sparse_system_html_a1c118c164aa168ff6f53993a09e3c043"><div class="ttname"><a href="class_sparse_system.html#a1c118c164aa168ff6f53993a09e3c043">SparseSystem::clean</a></div><div class="ttdeci">void clean()</div><div class="ttdoc">Delete dynamically allocated memory (class member Eigen::SparseLU&lt;Eigen::SparseMatrix&gt; *solver)</div><div class="ttdef"><b>Definition</b> SparseSystem.cpp:24</div></div>
